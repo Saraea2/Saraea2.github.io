@@ -36,3 +36,111 @@
             border-radius: 10px;
             margin-top: 20px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover effect */
+        }
+
+        /* Box hover effect */
+        .box:hover {
+            transform: translateY(-5px); /* lift box */
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* stronger shadow */
+        }
+
+        /* Text styling */
+        p, ul {
+            font-size: 1.1em;
+        }
+
+        ul li {
+            margin-bottom: 5px;
+        }
+
+        /* Links */
+        a {
+            color: #8e24aa; /* Purple links */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #555;
+            text-align: center;
+        }
+
+        /* Profile image styling */
+        .profile-photo {
+            display: block;
+            margin: 0 auto 20px auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #6a1b9a;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Profile Photo -->
+<img src="headshot.jpg" alt="Sara Ahmed" class="profile-photo">
+
+<h1>Sara Ahmed</h1>
+<p style="text-align:center;"><strong>Aspiring Software Developer | Degree Apprenticeship Applicant</strong></p>
+
+<div class="box">
+    <h2>About Me</h2>
+    <p>
+        I am currently applying for a Digital Degree Apprenticeship in Software Development.
+        I am at the beginning of my learning journey and created this website to practise the
+        basics of HTML and CSS and to understand how websites are built.
+    </p>
+</div>
+
+<div class="box">
+    <h2>Why Software Development?</h2>
+    <p>
+        I am interested in software development because I enjoy problem-solving and learning how
+        ideas can be turned into working systems. I am particularly interested in learning both
+        front-end and back-end development as part of a structured apprenticeship.
+    </p>
+</div>
+
+<div class="box">
+    <h2>What I’m Learning</h2>
+    <ul>
+        <li>HTML – structuring web pages</li>
+        <li>CSS – basic styling and layout</li>
+        <li>How websites are hosted using GitHub Pages</li>
+    </ul>
+</div>
+
+<div class="box">
+    <h2>Learning Projects & Experiments</h2>
+    <p>
+        This website is my first hands-on project while learning HTML and CSS. 
+        It allowed me to practice structuring content, applying styles, and publishing a live site using GitHub Pages.
+    </p>
+    <p>In the future, I plan to experiment with:</p>
+    <ul>
+        <li>Adding interactive elements using JavaScript</li>
+        <li>Creating simple web applications</li>
+        <li>Exploring back-end basics and databases</li>
+    </ul>
+</div>
+
+<div class="box">
+    <h2>Contact</h2>
+    <p>Email: saraea2@outlook.com</p>
+</div>
+
+<footer>
+    <p>This website is an early learning project and will be updated as I continue to develop my skills.</p>
+</footer>
+
+</body>
+</html>
+
